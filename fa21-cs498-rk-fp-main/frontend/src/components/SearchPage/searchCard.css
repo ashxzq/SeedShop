@@ -1,0 +1,34 @@
+.gallery-view-home {
+    padding: 4% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.result {
+    height: 100%
+}
+
+.filter {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail-view {
+    padding: 4% 10%;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-evenly;*/
+}
+
+.movie-info {
+    padding: 4%;
+}

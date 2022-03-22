@@ -1,0 +1,12 @@
+#page-title-product-details {
+    margin-top: 1rem;
+}
+
+#detail-header-image {
+    display: flex;
+    justify-content: center
+}
+
+.detail-attribute-name {
+    font-weight: bold;
+}

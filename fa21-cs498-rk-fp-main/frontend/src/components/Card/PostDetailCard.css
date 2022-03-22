@@ -1,0 +1,10 @@
+.post-detail-card {
+    width: 15rem;
+    max-height: 40rem;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.card-link {
+    text-decoration: none;
+}

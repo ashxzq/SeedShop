@@ -1,0 +1,17 @@
+img.carousel-img {
+    height: 80vh;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.title {
+    font-size: 4rem;
+    /*text-shadow: 0.1em 0.1em #ff00ff*/
+}
+
+.content {
+    font-size: 2rem;
+    text-shadow: 0.1em 0.1em #333
+}

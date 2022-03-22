@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.userImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15rem;
+    padding: 0 2px;
+    margin-bottom: 10px;
+}
+
+.setUnderNavBar {
+    max-width: 50rem;
+    margin-top: 2rem;
+}
+
+.setPageMid {
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+
+.setLogPageMid {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+#profile-avatar-selection {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#register-avatar-selection {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}

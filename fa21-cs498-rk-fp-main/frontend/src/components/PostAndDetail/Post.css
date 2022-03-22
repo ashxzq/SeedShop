@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.myPosts {
+    margin-top: 10px;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.productImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15rem;
+    padding: 0 2px;
+    margin-bottom: 10px;
+}
+
+.setUnderNavBar {
+    width: 35rem;
+    margin-top: 2rem;
+}
+
+.setPageMid {
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+
+.setLogPageMid {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+.buttonNextPrev {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cardFormat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*align-items:flex-start;*/
+}
+
+.rowFormat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+}
+
+.colFormat {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.deleteButtonCol {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.imageLayout {
+    width: 8rem;
+    height: 8rem;
+    margin: 1rem 1rem;
+}
+
+.productName {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: dimgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.description {
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.description-input {
+    width: 100%;
+    height: 20em;
+}
+
+.addPostButton {
+    font-weight: bold;
+    margin: 0.5rem 0;
+    width: 15rem;
+}
+
+#post-header-image {
+    display: flex;
+    justify-content: center
+}
